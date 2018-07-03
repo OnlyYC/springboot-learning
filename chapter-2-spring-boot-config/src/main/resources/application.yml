@@ -1,0 +1,5 @@
+## 书信息(yml中文属性值不会乱码)
+book:
+    name: 《Spring Boot 2.x 核心技术实战 - 上 基础篇》
+    writer: 泥瓦匠BYSocket
+    uuid: ${random.uuid}
