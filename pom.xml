@@ -24,6 +24,7 @@
     <modules>
         <module>chapter-4-3-1-spring-boot-redis</module>
         <module>spring-boot-starter</module>
+        <module>chapter-5-test</module>
     </modules>
     <packaging>pom</packaging>
 
