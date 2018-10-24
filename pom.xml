@@ -28,6 +28,7 @@
         <module>spring-session-redis</module>
         <module>spring-zookeeper</module>
         <module>spring-boot-actuator</module>
+        <module>chapter-2-1-spring-boot-config-multiple-environments</module>
     </modules>
     <packaging>pom</packaging>
 
