@@ -1,5 +1,7 @@
 package com.liaoyb.starter.config;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,7 +12,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan(basePackages = {"com.liaoyb.starter.controller"})
 public class MyStarterConfig {
-    //配置其他bean
-
+    /**
+     * 导入配置
+     */
+    @Bean
+    @ConfigurationProperties(prefix = "my")
+    public MyProperties myProperties() {
+        return new MyProperties();
+    }
 
 }
